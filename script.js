@@ -14,7 +14,7 @@ function startNewGame() {
     numToGuess = getRandomNumber();
     guessCounter = 0;
     userGuess = 0;
-    guessStatus.innerHTML = `Make a guess!😃`
+    guessStatus.innerHTML = `Start guessing!😃`
     guessCounterEl.innerHTML = `No. of Guesses: ${0}`;
     console.clear();
 }
