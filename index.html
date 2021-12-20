@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number DOM Edition</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Guess the number DOM Edition</h1>
+
+    <div class="centerContainer">
+        <h2 id="title">Guess a number between 1-100</h2>
+        <div class="container">
+            <form id="guessForm" class="formContainer">
+                <div>
+                    <input type="number" min="1" max="100" id="guess" name="guess" placeholder="Enter your guess">
+                </div>
+                <div class="btnContainer">
+                    <input type="submit" value="Submit" class="styleBtn">
+                    <input type="reset" value="Restart" class="styleBtn">
+                </div>
+            </form>
+        </div>
+        
+        <div class="guessResults">
+            <p id="guessStatus">Make a guess!😃</p>
+            <p id="guessCounter">No. of Guesses: 0</p>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
